@@ -1634,7 +1634,27 @@
 .swiper-container-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet {
   margin: 0 2px;
 }
+.about-ajce-dep
+{
+  padding-top:100px;
+}
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+ height:auto;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
 
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
 .swiper-pagination-bullet {
   width: 10px;
   height: 10px;
