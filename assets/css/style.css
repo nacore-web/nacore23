@@ -2438,9 +2438,25 @@ hr {
     margin-bottom: 30px
 }
 
+/*adhilsalim*/
+
+.section-tittle h3{
+    font-size: 30px;
+    display: block;
+    color: ##767676;
+    font-weight: 700;
+    margin-bottom: 17px;
+    line-height: 1.3;
+    margin-bottom: 30px
+}
+
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
     .section-tittle h2 {
         font-size: 42px
+    }
+
+    .section-tittle h3{
+        font-size: 20px;
     }
 }
 
@@ -2448,12 +2464,23 @@ hr {
     .section-tittle h2 {
         font-size: 31px
     }
+
+    .section-tittle h3{
+        font-size: 20px;
+
+    }
 }
 
 @media (max-width: 575px) {
     .section-tittle h2 {
         font-size: 24px;
         line-height: 1.6
+    }
+
+    .section-tittle h3{
+        font-size: 20px;
+        line-height: 1.1;
+
     }
 }
 
