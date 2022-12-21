@@ -2450,6 +2450,10 @@ hr {
     margin-bottom: 30px
 }
 
+.circle-list li{
+    list-style-type: circle;
+}
+
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
     .section-tittle h2 {
         font-size: 42px
