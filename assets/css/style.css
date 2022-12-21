@@ -2452,6 +2452,8 @@ hr {
 
 .circle-list li{
     list-style-type: circle;
+    font-size: 18px;
+    margin-left: 2.1rem;
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -3504,7 +3506,8 @@ hr {
 }
 
 .about-low-area .about-caption p {
-    font-size: 16px;
+    font-size: 19px;
+    text-align: justify;
     color: #64676c;
     line-height: 1.6;
     margin-bottom: 43px;
