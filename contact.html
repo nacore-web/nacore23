@@ -8,28 +8,16 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico">
+    <script type="module">
+        import { domain } from "./src/route/route.js"
 
-    <!-- CSS here -->
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
-    <link rel="stylesheet" href="assets/css/slicknav.css">
-    <link rel="stylesheet" href="assets/css/animate.min.css">
-    <link rel="stylesheet" href="assets/css/magnific-popup.css">
-    <link rel="stylesheet" href="assets/css/fontawesome-all.min.css">
-    <link rel="stylesheet" href="assets/css/themify-icons.css">
-    <link rel="stylesheet" href="assets/css/themify-icons.css">
-    <link rel="stylesheet" href="assets/css/slick.css">
-    <link rel="stylesheet" href="assets/css/nice-select.css">
-    <link rel="stylesheet" href="assets/css/style.css">
+        if (window.location.href.indexOf("contact.html") > -1) {
+            window.location.replace(domain + "contact/");
+        }
+    </script>
 </head>
 
-<script>
-    let domain = "http://127.0.0.1:5500/";
-    //if windows location contains contact.html then replace window location with contact/
-    if (window.location.href.indexOf("contact.html") > -1) {
-        window.location.replace(domain + "contact/");
-    }
-</script>
+
 </body>
 
 </html>
